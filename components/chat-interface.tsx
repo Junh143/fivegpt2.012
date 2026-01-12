@@ -79,12 +79,10 @@ export function ChatInterface() {
                     />
                   </svg>
                 </div>
-                <div className="rounded-2xl bg-secondary px-4 py-3">
-                  <div className="loading-dots">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
+                <div className="flex items-center gap-1">
+                  <div className="h-2 w-2 animate-bounce rounded-full bg-muted-foreground [animation-delay:-0.3s]" />
+                  <div className="h-2 w-2 animate-bounce rounded-full bg-muted-foreground [animation-delay:-0.15s]" />
+                  <div className="h-2 w-2 animate-bounce rounded-full bg-muted-foreground" />
                 </div>
               </div>
             )}
